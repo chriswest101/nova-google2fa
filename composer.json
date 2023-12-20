@@ -1,5 +1,5 @@
 {
-    "name": "cube-agency/nova-google2fa",
+    "name": "chriswest101/nova-google2fa",
     "description": "This package provides Google2FA to Laravel Nova.",
     "keywords": [
         "laravel",

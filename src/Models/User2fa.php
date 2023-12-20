@@ -38,8 +38,8 @@ class User2fa extends Model
     protected function google2faSecret(): Attribute
     {
         return new Attribute(
-            get: fn ($value) =>  decrypt($value),
-            set: fn ($value) =>  encrypt($value),
+            get: fn ($value) =>  $value,
+            set: fn ($value) =>  $value,
         );
     }
 }
